@@ -50,6 +50,7 @@ header.masthead {
       padding-top: 0;
       position: relative; // Set the position to relative
       z-index: 0; // Set the stacking order (if needed)
+      text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
       @include heading-font;
 
       @media (max-width: 768px) {
